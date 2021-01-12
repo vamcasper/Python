@@ -1,6 +1,6 @@
 # Задание № 5
 
-with open('file_5.txt', 'w+') as file_obj:
+with open('file_5.txt', 'w+', encoding='utf-8') as file_obj:
     line = input('Введите цифры через пробел: \n')
     file_obj.writelines(line)
     my_numb = line.split()
